@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sound Test auf der Switch</title>
+<link rel="stylesheet" href="">
+</head>
+<body>
+<h1></h1>
+<p></p>
+<button id="soundBtn">Test/button>
+
+<audio id="clickSound" src="Switch.mp3"></audio>
+
+<script>
+document.getElementById("soundBtn").addEventListener("click", function() {
+    document.getElementById("clickSound").play();
+});
+</script>
+
+<style>
+#soundBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+</style>
+ 
+</body>
+</html>   
